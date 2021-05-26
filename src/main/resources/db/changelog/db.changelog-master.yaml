@@ -2,3 +2,6 @@ databaseChangeLog:
   - include:
       # schema
       file: db/changelog/sqlSchema.sql
+  - include:
+      # data
+      file: db/changelog/data/initial-data.yaml

@@ -1,0 +1,30 @@
+databaseChangeLog:
+- changeSet:
+    id: 8
+    author: aptem334@gmail.com
+    comment: "Create user"
+    changes:
+      - insert:
+          tableName: CLIENTS
+          columns:
+            - column:
+                name: PHONE
+                value: "123347566789"
+            - column:
+                name: FULL_NAME
+                value: "Admin"
+            - column:
+                name: EMAIL
+                value: "admin@server.com"
+      - insert:
+          tableName: CLIENTS
+          columns:
+            - column:
+                name: PHONE
+                value: "12657866789"
+            - column:
+                name: FULL_NAME
+                value: "User"
+            - column:
+                name: EMAIL
+                value: "user@server.com"
